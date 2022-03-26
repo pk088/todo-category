@@ -9,8 +9,6 @@ const Category = (props) => {
     const navigate = useNavigate()
     
 
-    
-
     return (
         <div className='category'>
             <h1>Category
