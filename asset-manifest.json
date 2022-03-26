@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pk088/todo-category.git/static/css/main.c8357f8b.css",
+    "main.js": "/pk088/todo-category.git/static/js/main.29e37872.js",
+    "index.html": "/pk088/todo-category.git/index.html",
+    "main.c8357f8b.css.map": "/pk088/todo-category.git/static/css/main.c8357f8b.css.map",
+    "main.29e37872.js.map": "/pk088/todo-category.git/static/js/main.29e37872.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c8357f8b.css",
+    "static/js/main.29e37872.js"
+  ]
+}
