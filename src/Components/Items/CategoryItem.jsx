@@ -9,11 +9,11 @@ const CategoryItem = (props) => {
     const navigate = useNavigate();
     const [taskCount, setTaskCount] = useState(0)
 
-    useEffect(() => {
-        if(props.workData.category == "Personal"){
-            setTaskCount(taskCount + 1)
-        }
-    },[])
+        useEffect(() => {
+            if(props.workData.category == "Personal"){
+                setTaskCount(taskCount + 1)
+            }
+        },[])
 
     // const [red, setRed] = useState(256)
     const red = Math.floor(Math.random() * 256);
