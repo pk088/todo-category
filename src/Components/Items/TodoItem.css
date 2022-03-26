@@ -1,0 +1,80 @@
+.TodoItem{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 20px 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px 2px gray;
+    min-height: 5rem;
+    background-color: white;
+}
+
+
+.TodoItem:hover{
+    background-color: whitesmoke;
+}
+.time_title {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.penlogo{
+    font-size: 30px;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    margin-left: 2rem;
+    text-transform: capitalize;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    margin-right: 1rem;
+    width: 5rem;
+    height: 2rem;
+    border: none !important;
+}
+.buttons button{
+    border: none;
+    background-color: white;
+    height: 30px;
+    width: 30px;
+    font-size: 20px;
+    border-radius: 20%;
+    align-items: center;
+    margin: 0 5px;
+}
+
+.buttons .done:hover {
+    cursor: pointer;
+    background-color: greenyellow;
+}
+
+.buttons :active{
+    /* background-color: tomato; */
+    /* transform: translate(-120px); */
+    /* transform: scale(0.5); */
+    /* transform: scale(2, 2); */
+    transform: rotate(0.5turn);
+    transition: transform 200ms;
+}
+.buttons .delete:hover {
+    cursor:grab;
+    background-color: red;
+}
+.buttons .deleted {
+   background-color: red;
+}
+
+.logo {
+    font-size: 40px;
+}

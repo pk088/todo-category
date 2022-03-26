@@ -1,0 +1,11 @@
+.Time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    height: 60px;
+    width: 80px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: yellow;
+}

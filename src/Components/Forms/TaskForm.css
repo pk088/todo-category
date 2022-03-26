@@ -1,0 +1,33 @@
+.form_container {
+    /* display: flex; */
+    /* align-items: center; */
+    /* justify-content: center; */
+    width: 80%;
+    /* background-color: red; */
+    margin: 30px auto;
+}
+
+.form_container form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.form_container form label{
+    margin-top: 30px;
+    padding: 5px 0;
+}
+.form_container form input{
+    padding: 5px;
+}
+
+.form_container form button {
+    background-color: orange;
+    cursor: pointer;
+    border: 2px solid;
+    width: 50%;
+    margin: 30px auto;
+    padding: 4px;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+}
